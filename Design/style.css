@@ -228,7 +228,7 @@ body {
   }
   
     .image-box {
-      position: relative; /* Important: parent ke relative korte hobe */
+      position: relative; 
       display: inline-block;
      
     }
@@ -240,7 +240,7 @@ body {
 
     .image-box img.badge {
      position: absolute;
-      top: -120px;  /* 50% বাইরে রাখার জন্য */
+      top: -120px;  
       right: -120px;
       width: 300px;
       height: 300px;
