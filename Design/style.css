@@ -124,3 +124,82 @@ body {
     font-size: 16px;
   }
 }
+
+/* 2nd Section */
+
+.plant-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+.section-description{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.plant-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.plant-section h2 span {
+  color: #f25c05;
+  font-weight: bold;
+}
+
+.plant-section p {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  color: #555;
+  line-height: 1.5;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.plant-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plant-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.plant-card h4 {
+  margin: 10px 0 5px;
+}
+
+.plant-card p {
+  margin: 0 0 10px;
+}
+
+.plant-card button {
+  background-color: #f25c05;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.plant-card button:hover {
+  background-color: #d24a00;
+}
+
+/*  Mobile Responsive */
+@media (max-width: 768px) {
+  .plant-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
